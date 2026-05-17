@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import {getTranslations, setRequestLocale} from 'next-intl/server';
 import {PageHero} from '@/components/PageHero';
 import {Card} from '@/components/Section';
@@ -134,30 +133,21 @@ export default async function AboutPage({
           <p className="mt-3 text-muted">{t('about.directionSubtitle')}</p>
 
           <div className="mt-10 grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
-            <Card className="relative overflow-hidden">
-              <div className="absolute -top-10 -right-10 size-40 rounded-full bg-[var(--color-amber-400)]/30 blur-2xl" />
-              <div className="relative">
-                <div className="flex items-center gap-3">
-                  <div className="size-14 rounded-xl overflow-hidden bg-[var(--surface)] border hairline">
-                    <Image
-                      src="/images/team/pr-ouzzif.png"
-                      alt={DIRECTION.director}
-                      width={64}
-                      height={64}
-                      className="w-full h-full object-cover"
-                    />
-                  </div>
-                  <div>
-                    <div className="text-xs uppercase tracking-wider text-[var(--color-coral-500)] font-semibold">
-                      <Crown className="size-3 inline -mt-0.5" /> Director
-                    </div>
-                    <div className="font-semibold">{DIRECTION.director}</div>
-                  </div>
+            <Card>
+              <div className="flex items-center gap-3">
+                <div className="size-14 rounded-xl bg-gradient-to-br from-[var(--color-amber-400)]/30 to-[var(--color-coral-500)]/20 grid place-items-center">
+                  <Crown className="size-6 text-[var(--color-coral-600)]" />
                 </div>
-                <p className="mt-4 text-sm text-muted">
-                  Team: GEDIS · Governance & Engineering of Data and Intelligent Systems
-                </p>
+                <div>
+                  <div className="text-xs uppercase tracking-wider text-[var(--color-coral-500)] font-semibold">
+                    Director
+                  </div>
+                  <div className="font-semibold">{DIRECTION.director}</div>
+                </div>
               </div>
+              <p className="mt-4 text-sm text-muted">
+                Team: GEDIS · Governance &amp; Engineering of Data and Intelligent Systems
+              </p>
             </Card>
 
             <Card>

@@ -74,7 +74,6 @@ public/
 └── images/
     ├── logos/c3s-logo.png
     ├── partners/         # estc, chu-oujda, nrci
-    ├── team/pr-ouzzif.png
     └── events/           # workshop, journées recherche, etc.
 ```
 
