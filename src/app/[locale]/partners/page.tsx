@@ -6,9 +6,9 @@ import {Reveal} from '@/components/Reveal';
 import {ExternalLink} from 'lucide-react';
 
 type Partner = {
-  id: 'leyton' | 'nrci' | 'daki' | 'revatis' | 'chu' | 'estc';
+  id: 'leyton' | 'nrci' | 'mobitic' | 'revatis' | 'chu' | 'estc';
   type: 'industrial' | 'academic';
-  logo: string;
+  logo?: string;
   logoBg: 'light' | 'dark';
   accent: string;
   url?: string;
@@ -32,12 +32,10 @@ const PARTNERS: Partner[] = [
     url: 'https://www.nrci.fr'
   },
   {
-    id: 'daki',
+    id: 'mobitic',
     type: 'industrial',
-    logo: '/images/partners/daki-farm.png',
     logoBg: 'light',
-    accent: 'from-[var(--color-teal-500)]/20 to-[var(--color-amber-400)]/15',
-    url: 'https://daki-farm.com'
+    accent: 'from-[var(--color-teal-500)]/20 to-[var(--color-amber-400)]/15'
   },
   {
     id: 'revatis',
@@ -64,6 +62,15 @@ const PARTNERS: Partner[] = [
   }
 ];
 
+function PartnerMonogram({id}: {id: Partner['id']}) {
+  const letters = id.slice(0, 2).toUpperCase();
+  return (
+    <span className="text-2xl font-black tracking-tight gradient-text">
+      {letters}
+    </span>
+  );
+}
+
 function PartnerCard({partner, label}: {partner: Partner; label: string}) {
   const t = label;
   return (
@@ -76,13 +83,17 @@ function PartnerCard({partner, label}: {partner: Partner; label: string}) {
               : 'bg-white dark:bg-white/95'
           }`}
         >
-          <Image
-            src={partner.logo}
-            alt={partner.id}
-            width={64}
-            height={64}
-            className="max-w-full max-h-full w-auto h-auto object-contain"
-          />
+          {partner.logo ? (
+            <Image
+              src={partner.logo}
+              alt={partner.id}
+              width={64}
+              height={64}
+              className="max-w-full max-h-full w-auto h-auto object-contain"
+            />
+          ) : (
+            <PartnerMonogram id={partner.id} />
+          )}
         </div>
         <div className="min-w-0 flex-1">
           <div className="text-xs font-semibold uppercase tracking-wider text-muted">

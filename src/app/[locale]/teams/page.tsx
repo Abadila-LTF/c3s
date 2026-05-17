@@ -15,8 +15,19 @@ const TEAM_GRADIENTS: Record<TeamId, string> = {
   d2sf: 'from-[var(--color-amber-400)]/30 to-[var(--color-teal-500)]/20'
 };
 
+function scopusHref(value: string) {
+  if (/^https?:\/\//i.test(value)) return value;
+  return `https://www.scopus.com/authid/detail.uri?authorId=${value}`;
+}
+
 function MemberLinks({member}: {member: Member}) {
-  if (!member.linkedin && !member.scholar && !member.orcid) return null;
+  if (
+    !member.linkedin &&
+    !member.scholar &&
+    !member.orcid &&
+    !member.scopus
+  )
+    return null;
   return (
     <div className="flex items-center gap-1.5">
       {member.linkedin && (
@@ -50,6 +61,17 @@ function MemberLinks({member}: {member: Member}) {
           className="px-2 h-7 rounded-full border hairline grid place-items-center text-[10px] font-bold tracking-wider text-muted hover:text-[var(--fg)] hover:bg-[var(--surface-2)]"
         >
           ORCID
+        </a>
+      )}
+      {member.scopus && (
+        <a
+          href={scopusHref(member.scopus)}
+          target="_blank"
+          rel="noreferrer"
+          aria-label={`${member.name} on Scopus`}
+          className="px-2 h-7 rounded-full border hairline grid place-items-center text-[10px] font-bold tracking-wider text-muted hover:text-[var(--fg)] hover:bg-[var(--surface-2)]"
+        >
+          SCOPUS
         </a>
       )}
     </div>

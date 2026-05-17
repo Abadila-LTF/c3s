@@ -26,7 +26,7 @@ Built with **Next.js 16**, **TypeScript**, **Tailwind CSS v4**, **next-intl**, *
 5. `/publications` — Searchable & filterable list
 6. `/events` — WINCOM, Next-Gen Data Eng. Workshop, SysCoBIoTS, MIND, Journées Recherche, invited talks
 7. `/phd` — Open & ongoing PhD topics + how to apply
-8. `/partners` — Leyton, NRCI, Daki Farm, Revatis, CHU Oujda, ESTC
+8. `/partners` — Leyton, NRCI, Mobitic, Revatis, CHU Oujda, ESTC
 9. `/news` — Latest lab updates
 10. `/contact` — Address, email, embedded map, contact form
 

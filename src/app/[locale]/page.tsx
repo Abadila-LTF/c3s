@@ -295,7 +295,7 @@ export default async function HomePage({
             [
               {id: 'leyton', logo: '/images/partners/leyton.png', dark: true},
               {id: 'nrci', logo: '/images/partners/nrci.png', dark: false},
-              {id: 'daki', logo: '/images/partners/daki-farm.png', dark: false},
+              {id: 'mobitic', logo: null, dark: false},
               {id: 'revatis', logo: '/images/partners/revatis.svg', dark: true},
               {id: 'chu', logo: '/images/partners/chu-oujda.png', dark: false},
               {id: 'estc', logo: '/images/partners/estc.png', dark: false}
@@ -307,13 +307,19 @@ export default async function HomePage({
                   p.dark ? 'bg-[var(--color-navy-900)]' : ''
                 }`}
               >
-                <Image
-                  src={p.logo}
-                  alt={t(`partners.${p.id}.name`)}
-                  width={140}
-                  height={70}
-                  className="max-w-[80%] max-h-12 w-auto h-auto object-contain"
-                />
+                {p.logo ? (
+                  <Image
+                    src={p.logo}
+                    alt={t(`partners.${p.id}.name`)}
+                    width={140}
+                    height={70}
+                    className="max-w-[80%] max-h-12 w-auto h-auto object-contain"
+                  />
+                ) : (
+                  <span className="text-lg font-bold tracking-tight gradient-text">
+                    {t(`partners.${p.id}.name`)}
+                  </span>
+                )}
               </div>
             </Reveal>
           ))}

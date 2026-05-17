@@ -6,6 +6,7 @@ export type Member = {
   team: TeamId;
   isLead?: boolean;
   orcid?: string;
+  scopus?: string;
   scholar?: string;
   linkedin?: string;
 };

@@ -273,7 +273,7 @@
       },
       "agritech": {
         "title": "Plateforme agricole intelligente — Daki Farm",
-        "advisor": "Partenaire : Daki Farm · NRCI",
+        "advisor": "Partenaire : NRCI (projet Daki Farm)",
         "summary": "Écosystème AgriTech : application e-learning agricole et plateforme de gestion intelligente de l'irrigation. Modélisation des besoins en eau, reconnaissance d'image pour le diagnostic des maladies des plantes."
       },
       "energy": {
@@ -317,9 +317,9 @@
       "name": "NRCI",
       "description": "Organisation à but non lucratif dédiée à la promotion de l'excellence dans la formation, l'innovation et la recherche. Plusieurs projets doctoraux co-encadrés."
     },
-    "daki": {
-      "name": "Daki Farm",
-      "description": "Société de service mettant en place des solutions innovantes dans le domaine énergétique et agricole. Projet de plateforme AgriTech."
+    "mobitic": {
+      "name": "Mobitic",
+      "description": "Partenaire industriel collaborant avec le C3S sur des projets de recherche appliquée et de transfert technologique."
     },
     "revatis": {
       "name": "Revatis",
