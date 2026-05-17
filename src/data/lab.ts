@@ -25,22 +25,37 @@ export const MEMBERS: Member[] = [
     isLead: true,
     orcid: '0000-0001-8676-5570'
   },
-  {name: 'Pr. Nadia AFIFI', team: 'dsis'},
-  {name: 'Pr. Mohamed Reda FILALI HILALI', team: 'dsis'},
-  {name: 'Pr. Mostafa JEBBAR', team: 'dsis'},
-  {name: 'Pr. Azzeddine DAHBI', team: 'dsis'},
+  {name: 'Pr. Nadia AFIFI', team: 'dsis', orcid: '0000-0001-9727-7054'},
+  {
+    name: 'Pr. Mohamed Reda FILALI HILALI',
+    team: 'dsis',
+    orcid: '0000-0002-7134-6186'
+  },
+  {name: 'Pr. Mostafa JEBBAR', team: 'dsis', orcid: '0000-0001-6833-0549'},
+  {name: 'Pr. Azzeddine DAHBI', team: 'dsis', orcid: '0000-0003-3443-8222'},
 
-  {name: 'Pr. Elhoussaine ZIYATI', role: 'Team lead', team: 'bdios', isLead: true},
-  {name: 'Pr. Khalid BOURAGBA', team: 'bdios'},
-  {name: 'Pr. Soufiane LAKHLIFI', team: 'bdios'},
-  {name: 'Pr. M\u2019barek IAOUSSE', team: 'bdios'},
-  {name: 'Pr. Mohammed BAZIRHA', team: 'bdios'},
+  {
+    name: 'Pr. Elhoussaine ZIYATI',
+    role: 'Team lead',
+    team: 'bdios',
+    isLead: true,
+    orcid: '0000-0003-0195-8459'
+  },
+  {name: 'Pr. Khalid BOURAGBA', team: 'bdios', orcid: '0000-0003-2795-4667'},
+  {name: 'Pr. Soufiane LAKHLIFI', team: 'bdios', orcid: '0000-0002-9923-4493'},
+  {
+    name: 'Pr. M\u2019barek IAOUSSE',
+    team: 'bdios',
+    orcid: '0000-0002-4949-5556'
+  },
+  {name: 'Pr. Mohammed BAZIRHA', team: 'bdios', orcid: '0000-0002-7099-152X'},
 
   {
     name: 'Pr. Meriyem CHERGUI',
     role: 'Team lead · GEDIS',
     team: 'gedis',
     isLead: true,
+    orcid: '0000-0002-4372-0097',
     linkedin: 'https://linkedin.com/in/meriyem-chergui-4a780418',
     scholar: 'https://scholar.google.com/citations?user=aSsVakUAAAAJ'
   },
@@ -55,26 +70,29 @@ export const MEMBERS: Member[] = [
     name: 'Pr. Mohamed EL KAMILI',
     role: 'Deputy Director',
     team: 'gedis',
+    orcid: '0000-0001-8039-684X',
     linkedin: 'https://linkedin.com/in/mohamed-el-kamili-8317496b'
   },
   {
     name: 'Pr. Imane DAOUDI',
     team: 'gedis',
+    orcid: '0009-0007-3516-256X',
     scholar: 'https://scholar.google.com/citations?user=06b6ToUAAAAJ'
   },
-  {name: 'Pr. Ismail EL HADDIOUI', team: 'gedis'},
-  {name: 'Pr. Souad HAFIDI', team: 'gedis'},
+  {name: 'Pr. Ismail EL HADDIOUI', team: 'gedis', orcid: '0000-0002-9865-4410'},
+  {name: 'Pr. Souad HAFIDI', team: 'gedis', orcid: '0000-0002-5950-1892'},
 
   {
     name: 'Pr. Khalid ZARBANE',
     role: 'Team lead',
     team: 'd2sf',
     isLead: true,
+    orcid: '0000-0002-6048-5279',
     linkedin: 'https://linkedin.com/in/khalid-zarbane-8a54a260'
   },
-  {name: 'Pr. Issa OUBALLOUCH', team: 'd2sf'},
-  {name: 'Pr. Zitouni BEIDOURI', team: 'd2sf'},
-  {name: 'Pr. Mohamed EL OUMAMI', team: 'd2sf'}
+  {name: 'Pr. Issa OUBALLOUCH', team: 'd2sf', orcid: '0000-0002-8800-5564'},
+  {name: 'Pr. Zitouni BEIDOURI', team: 'd2sf', orcid: '0000-0002-5347-7895'},
+  {name: 'Pr. Mohamed EL OUMAMI', team: 'd2sf', orcid: '0000-0003-3166-6529'}
 ];
 
 export const TEAM_TOPICS: Record<TeamId, string[]> = {
