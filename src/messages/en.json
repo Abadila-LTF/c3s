@@ -1,0 +1,391 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "teams": "Teams",
+    "research": "Research",
+    "publications": "Publications",
+    "events": "Events",
+    "phd": "PhD program",
+    "partners": "Partners",
+    "news": "News",
+    "contact": "Contact"
+  },
+  "footer": {
+    "affiliation": "ESTC · Hassan II University of Casablanca",
+    "tagline": "A Computer Science research lab bringing together 20+ faculty researchers around Data Science, IoT, Cybersecurity, Cloud and Smart Systems.",
+    "explore": "Explore",
+    "engage": "Engage",
+    "contact": "Get in touch",
+    "legal": "All rights reserved"
+  },
+  "common": {
+    "learnMore": "Learn more",
+    "viewAll": "View all",
+    "discoverTeams": "Discover the teams",
+    "joinUs": "Join the lab",
+    "since": "Since",
+    "members": "members"
+  },
+  "home": {
+    "eyebrow": "Research lab · UH2C / ESTC · Since 2019",
+    "title1": "Research, innovation and",
+    "title2": "smart systems",
+    "subtitle": "C3S — the Computer Science and Smart Systems Laboratory — federates 20 faculty researchers around Data Science, IoT, Cybersecurity, Cloud and AI, at the École Supérieure de Technologie de Casablanca.",
+    "ctaPrimary": "Our research areas",
+    "ctaSecondary": "Join the lab",
+    "stats": {
+      "papers": "Publications",
+      "papersDetail": "indexed conferences & journals (5y)",
+      "phds": "PhDs defended",
+      "phdsDetail": "doctoral students trained since 2019",
+      "events": "Events",
+      "eventsDetail": "conferences & workshops organized",
+      "hindex": "h-index",
+      "hindexDetail": "collective lab score"
+    },
+    "missionTitle": "Our mission",
+    "mission1": "Put scientific and technical research at the service of society through applied research aligned with contemporary technological advances and national priorities.",
+    "mission2": "Train top-level researchers, capable of inventing, experimenting and transferring their knowledge to socio-economic sectors.",
+    "domainsTitle": "Research areas",
+    "domainsSubtitle": "A multidisciplinary coverage of applied computer science and smart systems.",
+    "teamsTitle": "Four teams, one vision",
+    "teamsSubtitle": "The lab is structured around four research teams federated by complementary themes.",
+    "partnersTitle": "Industrial & academic partners",
+    "partnersSubtitle": "Collaborative research with the socio-economic ecosystem.",
+    "eventsTitle": "Upcoming & flagship events",
+    "eventsSubtitle": "International conferences and workshops organized by the lab.",
+    "ctaCardTitle": "Are you a student, researcher or industry partner?",
+    "ctaCardSubtitle": "C3S welcomes PhD students, post-docs and industry partners interested in high-impact projects.",
+    "ctaCardButton": "Let's talk about your project"
+  },
+  "about": {
+    "eyebrow": "The lab",
+    "title": "Computer Science and Smart Systems",
+    "intro": "Founded in 2019 at the École Supérieure de Technologie de Casablanca, C3S brings together about 20 faculty researchers around the major themes of information science and technology.",
+    "presentationTitle": "Overview",
+    "presentation": "C3S is a Computer Science research laboratory hosted at École Supérieure de Technologie de Casablanca (ESTC), Hassan II University of Casablanca. It federates 20 permanent faculty researchers with 20+ years of experience, across a diversity of disciplines: Data Engineering, Data Science, Big Data, Wireless Networks, IoT, Cloud Computing, Information Systems, Cyber Security, System Modelling & Simulation, Robotics, Business Intelligence and Advanced Data Analytics.",
+    "presentation2": "C3S meets the accreditation requirements of Hassan II University of Casablanca: 4 structured teams, 45+ Scopus / Web of Science indexed publications over the last 4 years, and a collective h-index above 50. The lab welcomes researchers from complementary fields wishing to participate in multidisciplinary projects.",
+    "visionTitle": "Vision & strategy",
+    "visionSubtitle": "Three pillars structure the lab's action.",
+    "strategyTitle": "Strategic action plan",
+    "strategy1Title": "Training & recruitment",
+    "strategy1": "Training program for researchers covering scientific and technological advances, in coordination with the doctoral studies center. Seminars, workshops and mentoring to support young researchers.",
+    "strategy2Title": "Applied research",
+    "strategy2": "Identification of key partnerships in health, environment, agriculture and energy. Working groups on specific challenges. Case studies demonstrating social and economic impact.",
+    "strategy3Title": "Collaborative research",
+    "strategy3": "Partnerships with academic labs and institutions. Joint projects and funding submissions at national and international levels. Active participation in conferences to strengthen the network.",
+    "directionTitle": "Lab leadership",
+    "directionSubtitle": "The lab is led by a council elected at the General Assembly.",
+    "governanceTitle": "Governance",
+    "governance1Title": "General Assembly",
+    "governance1": "Highest decision-making body. Composed of all permanent members, it validates the internal regulations, the annual report and elects the Director and Deputy Director.",
+    "governance2Title": "Lab Council",
+    "governance2": "Ex officio members (Direction, team leaders) and elected representatives (1 per team + 1 PhD student). Defines research orientations, validates action plans and approves partnerships.",
+    "governance3Title": "Direction",
+    "governance3": "The Director, elected by the GA for the accreditation period, ensures scientific, administrative and financial leadership and represents the lab to academic and socio-economic bodies.",
+    "committeesTitle": "Specific committees",
+    "committee1": "Communication committee",
+    "committee2": "Scientific Promotion Committee (SPC)",
+    "committee3": "PhD Monitoring Committee (PMC)",
+    "vision": {
+      "training": {
+        "title": "Training",
+        "description": "Train top-level researchers with broad skills, an inventive spirit and active participation in major international conferences."
+      },
+      "applied": {
+        "title": "Applied research",
+        "description": "Solve real-world problems with strong economic and social impact, aligned with national priorities (health, environment, agriculture, energy)."
+      },
+      "collab": {
+        "title": "Collaboration",
+        "description": "Develop national and international partnerships, foster knowledge transfer and co-submit research projects."
+      }
+    }
+  },
+  "teams": {
+    "eyebrow": "Research teams",
+    "title": "Four complementary teams",
+    "subtitle": "The lab is organised around four teams federated by complementary themes, gathering 20 faculty researchers.",
+    "teamLead": "Team lead",
+    "members": "Members",
+    "topics": "Research topics",
+    "dsis": {
+      "name": "DSIS",
+      "fullName": "Data, Security and Intelligent Systems",
+      "tagline": "Security, AI and intelligent systems",
+      "description": "DSIS works at the intersection of data, cybersecurity and intelligent systems. Its research covers secure architectures, AI for security, cryptography and modelling of complex systems."
+    },
+    "bdios": {
+      "name": "BDIoS",
+      "fullName": "Big Data & Internet of Skills",
+      "tagline": "Big Data, IoT and industrial platforms",
+      "description": "BDIoS develops solutions for large-scale processing, the Internet of Things and the Internet of Skills. The team partners with industry on document classification, time-series analysis and smart metering."
+    },
+    "gedis": {
+      "name": "GEDIS",
+      "fullName": "Governance and Engineering of Data and Intelligent Systems",
+      "tagline": "Data engineering & governance",
+      "description": "GEDIS focuses on the governance, architecture and engineering of data and intelligent information systems. The team leads projects on smart agriculture, blockchain and connected health."
+    },
+    "d2sf": {
+      "name": "D2SF",
+      "fullName": "Design, Smart Systems & Future technologies",
+      "tagline": "Design and smart systems",
+      "description": "Recently joining the lab, D2SF brings expertise in design, smart systems and future technologies, expanding C3S's thematic coverage."
+    }
+  },
+  "research": {
+    "eyebrow": "Research areas",
+    "title": "Multidisciplinary research",
+    "subtitle": "Nine pillars covering today's biggest challenges in computer science and smart systems.",
+    "areas": {
+      "data": {
+        "title": "Data Engineering & Data Science",
+        "description": "Data engineering, ETL/ELT, quality, governance and applied machine learning."
+      },
+      "bigdata": {
+        "title": "Big Data & Business Intelligence",
+        "description": "Distributed architectures, advanced analytics and decision dashboards."
+      },
+      "iot": {
+        "title": "Internet of Things",
+        "description": "Sensors, edge computing, low-power protocols and industrial IoT platforms."
+      },
+      "wireless": {
+        "title": "Wireless Networks",
+        "description": "Wireless networks, mobile communications, 5G/6G and network performance."
+      },
+      "cloud": {
+        "title": "Cloud Computing",
+        "description": "Cloud-native architectures, microservices, containerization and FinOps."
+      },
+      "info": {
+        "title": "Information Systems",
+        "description": "Enterprise IS, BPM, ERP, urbanization and digital transformation."
+      },
+      "cyber": {
+        "title": "Cyber Security",
+        "description": "Systems security, cryptography, intrusion detection and governance."
+      },
+      "modelling": {
+        "title": "System Modelling & Simulation",
+        "description": "Formal modelling, discrete simulation and multi-agent systems."
+      },
+      "robotics": {
+        "title": "Robotics & Smart Systems",
+        "description": "Robotics, embedded systems, AI for robotics and automation."
+      }
+    }
+  },
+  "publications": {
+    "eyebrow": "Scientific output",
+    "title": "Publications",
+    "subtitle": "More than 250 cumulative publications in indexed conferences and journals over the last five years.",
+    "filters": {
+      "all": "All",
+      "year": "Year",
+      "type": "Type",
+      "team": "Team",
+      "journal": "Journal",
+      "conference": "Conference",
+      "communication": "Communication",
+      "search": "Search title, author..."
+    }
+  },
+  "events": {
+    "eyebrow": "Conferences & workshops",
+    "title": "Lab events",
+    "subtitle": "C3S organises and co-organises several international conferences and workshops every year.",
+    "flagshipTitle": "Flagship conferences",
+    "talksTitle": "2024 invited talks",
+    "annualTitle": "Annual events",
+    "wincom": {
+      "title": "WINCOM",
+      "subtitle": "International Conference on Wireless Networks and Mobile Communications",
+      "description": "International conference on wireless networks and mobile communications."
+    },
+    "syscobiots": {
+      "title": "SysCoBIoTS",
+      "subtitle": "Systems of Collaboration, Big Data, IoT & Security",
+      "description": "International conference on collaborative systems, Big Data, IoT and security."
+    },
+    "wkde": {
+      "title": "Next-Gen Data Engineering Workshop",
+      "subtitle": "DevOps, DataOps & data engineering",
+      "description": "Annual workshop on modern data engineering practices."
+    },
+    "mind": {
+      "title": "MIND",
+      "subtitle": "Multidisciplinary International Conference",
+      "description": "Multidisciplinary international conference led by the lab."
+    },
+    "journees": {
+      "title": "C3S Research Days",
+      "subtitle": "Annual · ESTC Casablanca",
+      "description": "Annual gathering of researchers, PhD students and partners."
+    },
+    "talk1": "Central bank digital currencies: societal transformation or socio-technological myth",
+    "talk1Speaker": "Pr. Hicham Sadouk · Mohammed V University",
+    "talk1Date": "April 23, 2024",
+    "talk2": "GPT and Large Language Models: principles and challenges",
+    "talk2Speaker": "Pr. Malik Ghallab · LAAS / CNRS, France",
+    "talk2Date": "May 23, 2024",
+    "talk3": "Awareness and support for research project design",
+    "talk3Speaker": "Mr. Ezzarfi · Ministry of ESRI",
+    "talk3Date": "June 24, 2024"
+  },
+  "phd": {
+    "eyebrow": "Doctoral program",
+    "title": "PhD & research projects",
+    "subtitle": "C3S hosts PhD students in partnership with industrial and academic partners. Ongoing topics and upcoming opportunities.",
+    "openTitle": "Open & ongoing topics",
+    "ongoingTitle": "Ongoing PhDs",
+    "applyTitle": "How to apply?",
+    "applyText": "Send your application (CV + research proposal) to the Lab Director through the head of institution. Applications are reviewed by the Lab Council before approval by the University Council.",
+    "applyCta": "Get in touch",
+    "steps": {
+      "step": "Step",
+      "s1Title": "CV + research proposal",
+      "s1Desc": "Application addressed to the Lab Director.",
+      "s2Title": "Lab Council review",
+      "s2Desc": "The council studies and gives an opinion on the application.",
+      "s3Title": "University approval",
+      "s3Desc": "Forwarded to the Research Pole and University Council.",
+      "s4Title": "Onboarding",
+      "s4Desc": "Mentoring, doctoral training & start of research."
+    },
+    "status": {
+      "ongoing": "Ongoing",
+      "open": "Open",
+      "draft": "Draft article"
+    },
+    "topics": {
+      "vrdu": {
+        "title": "Visually-rich Document Understanding",
+        "advisor": "PhD: Abdellatif Sissaoui · Partner: Leyton",
+        "summary": "Three-module architecture (Feature extractor, Graph constructor, GNN model) tested on benchmark datasets. Draft article ready for submission to a Q1 NLP-focused journal."
+      },
+      "longdoc": {
+        "title": "Efficient Long Document Classification",
+        "advisor": "PhD: Yasser Elouargui · Partner: Leyton",
+        "summary": "Sentence-oriented GNN model with semantic node connections and a three-level attention graph. Implemented and evaluated on benchmark datasets."
+      },
+      "agritech": {
+        "title": "Smart Agricultural Platform — Daki Farm",
+        "advisor": "Partner: Daki Farm · NRCI",
+        "summary": "AgriTech ecosystem: e-learning agricultural app and smart irrigation management platform. Water needs modelling and image-based plant disease diagnosis."
+      },
+      "energy": {
+        "title": "NR Counter — Smart energy management platform",
+        "advisor": "Partner: NRCI · Smart grids",
+        "summary": "Smart connected meter offering digitalized services. AI models for automated energy audits and diagnostics."
+      },
+      "nlp": {
+        "title": "NLP for automatic project documentation generation",
+        "advisor": "Partner: Engineering 4.0",
+        "summary": "AI model automatically generating preliminary studies, technical specs, graphics and admin documents in electrical and photovoltaic engineering."
+      },
+      "llm": {
+        "title": "Multi-Agent LLMs & RAG Systems",
+        "advisor": "Partner: Revatis",
+        "summary": "Optimization of multi-agent systems based on Large Language Models and Retrieval-Augmented Generation."
+      },
+      "health": {
+        "title": "Multi-Agent System for Healthcare Support",
+        "advisor": "Partner: Revatis",
+        "summary": "Design of a multi-agent system for enhanced healthcare support."
+      },
+      "renal": {
+        "title": "Smart platform for kidney disease monitoring",
+        "advisor": "Partner: Nephrology Department · CHU Mohammed VI Oujda",
+        "summary": "Counseling and monitoring platform for kidney diseases. Project and patent in progress."
+      }
+    }
+  },
+  "partners": {
+    "eyebrow": "Ecosystem",
+    "title": "Academic & industrial partners",
+    "subtitle": "C3S builds long-term collaborations with socio-economic actors for high-impact research.",
+    "academic": "Academic partners",
+    "industrial": "Industrial partners",
+    "leyton": {
+      "name": "Leyton",
+      "description": "International consulting firm helping its clients identify financial levers to accelerate growth and build sustainable progress. Co-supervision of PhDs in NLP / Document AI."
+    },
+    "nrci": {
+      "name": "NRCI",
+      "description": "Non-profit organization dedicated to promoting excellence in training, innovation and research. Several co-supervised PhD projects."
+    },
+    "daki": {
+      "name": "Daki Farm",
+      "description": "Service company implementing innovative solutions in energy and agriculture. AgriTech platform project."
+    },
+    "revatis": {
+      "name": "Revatis",
+      "description": "Industrial partner on multi-agent LLM optimization and intelligent healthcare support."
+    },
+    "chu": {
+      "name": "CHU Mohammed VI · Oujda",
+      "description": "Nephrology, Dialysis and Renal Transplantation Department. Epidemiology, Clinical Research and Public Health Lab, FMP Oujda."
+    },
+    "estc": {
+      "name": "ESTC · Hassan II University",
+      "description": "Host institution. The École Supérieure de Technologie de Casablanca hosts the lab and supports its training and research activities."
+    }
+  },
+  "news": {
+    "eyebrow": "News",
+    "title": "Latest updates",
+    "subtitle": "Meetings, partnerships, invited talks and recent scientific output.",
+    "items": {
+      "ag": {
+        "date": "October 17, 2024",
+        "title": "Lab restructured at General Assembly",
+        "summary": "C3S's restructuring General Assembly was held at ESTC Casablanca, validating the composition of the four teams for the 2025-2028 mandate."
+      },
+      "accreditation": {
+        "date": "July 2024",
+        "title": "Lab re-accreditation confirmed",
+        "summary": "UH2C's Scientific Research Commission confirmed C3S's compliance with re-accreditation requirements: 4 teams, 45+ indexed publications, h-index > 50."
+      },
+      "leyton": {
+        "date": "March 2024",
+        "title": "Leyton Mini-Hackathon",
+        "summary": "C3S PhDs participated in the Leyton Mini-Hackathon, winning the 2nd prize. One more milestone in the C3S × Leyton partnership."
+      },
+      "wkde": {
+        "date": "February 14, 2024",
+        "title": "Next-Gen Data Engineering Workshop",
+        "summary": "The lab organized its annual workshop on data engineering, DevOps and DataOps at EST Casablanca."
+      }
+    }
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Let's talk about your project",
+    "subtitle": "Whether you are a PhD student, researcher, industrial or institutional partner, C3S is open to new collaborations.",
+    "addressTitle": "Address",
+    "address": "École Supérieure de Technologie de Casablanca (ESTC)\nHassan II University of Casablanca\nKm 7, Route d'El Jadida\nCasablanca, Morocco",
+    "emailTitle": "Email",
+    "websiteTitle": "Official website",
+    "mapTitle": "Location",
+    "channelsTitle": "How to reach us",
+    "channelsSubtitle": "Depending on the nature of your request, write to us directly at the matching address.",
+    "channels": {
+      "general": {
+        "title": "General inquiries",
+        "description": "For any question about the laboratory, its activities, or to request a visit."
+      },
+      "phd": {
+        "title": "Doctoral applications",
+        "description": "To propose or apply for a thesis topic co-supervised by C3S teams."
+      },
+      "partnership": {
+        "title": "Industrial partnerships",
+        "description": "To explore a research collaboration, technology transfer or R&D project."
+      }
+    },
+    "writeTo": "Write to us"
+  }
+}
