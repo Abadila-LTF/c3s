@@ -61,7 +61,7 @@ function MemberLinks({member}: {member: Member}) {
           rel="noreferrer"
           aria-label={`${member.name} ORCID`}
           title="ORCID"
-          className="size-7 rounded-full bg-[#A6CE39] grid place-items-center text-[10px] font-bold italic text-white hover:brightness-110"
+          className="size-7 rounded-full border border-[#A6CE39]/40 bg-[#A6CE39]/10 grid place-items-center text-[10px] font-bold italic text-[#7AA62A] dark:text-[#A6CE39] hover:bg-[#A6CE39]/20"
         >
           iD
         </a>
@@ -73,7 +73,7 @@ function MemberLinks({member}: {member: Member}) {
           rel="noreferrer"
           aria-label={`${member.name} on Scopus`}
           title="Scopus"
-          className="size-7 rounded-full bg-[#E9711C] grid place-items-center text-[11px] font-bold text-white hover:brightness-110"
+          className="size-7 rounded-full border border-[#E9711C]/40 bg-[#E9711C]/10 grid place-items-center text-[11px] font-bold text-[#C25C16] dark:text-[#F08A3B] hover:bg-[#E9711C]/20"
         >
           S
         </a>
