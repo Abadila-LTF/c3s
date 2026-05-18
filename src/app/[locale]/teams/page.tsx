@@ -29,7 +29,7 @@ function MemberLinks({member}: {member: Member}) {
   )
     return null;
   return (
-    <div className="flex items-center gap-1.5">
+    <div className="flex flex-wrap items-center gap-1.5">
       {member.linkedin && (
         <a
           href={member.linkedin}
@@ -160,29 +160,39 @@ export default async function TeamsPage({
                       {t('teams.members')} · {members.length}
                     </div>
                     <div className="grid sm:grid-cols-2 gap-3">
-                      {others.map((m) => (
-                        <div
-                          key={m.name}
-                          className="card border rounded-xl p-4 flex items-center gap-3 hover:-translate-y-0.5 transition"
-                        >
-                          <Avatar
-                            name={m.name}
-                            size="md"
-                            isDirector={m.role?.includes('Director · C3S')}
-                          />
-                          <div className="min-w-0 flex-1">
-                            <div className="text-sm font-medium truncate">
-                              {m.name}
+                      {others.map((m) => {
+                        const hasLinks =
+                          m.linkedin || m.scholar || m.orcid || m.scopus;
+                        return (
+                          <div
+                            key={m.name}
+                            className="card border rounded-xl p-4 hover:-translate-y-0.5 transition"
+                          >
+                            <div className="flex items-start gap-3">
+                              <Avatar
+                                name={m.name}
+                                size="md"
+                                isDirector={m.role?.includes('Director · C3S')}
+                              />
+                              <div className="min-w-0 flex-1">
+                                <div className="text-sm font-medium leading-snug break-words">
+                                  {m.name}
+                                </div>
+                                {m.role && (
+                                  <div className="text-[11px] text-muted leading-snug mt-0.5 break-words">
+                                    {m.role}
+                                  </div>
+                                )}
+                              </div>
                             </div>
-                            {m.role && (
-                              <div className="text-[11px] text-muted truncate">
-                                {m.role}
+                            {hasLinks && (
+                              <div className="mt-3">
+                                <MemberLinks member={m} />
                               </div>
                             )}
                           </div>
-                          <MemberLinks member={m} />
-                        </div>
-                      ))}
+                        );
+                      })}
                     </div>
                   </div>
                 </div>
