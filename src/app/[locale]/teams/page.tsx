@@ -29,13 +29,14 @@ function MemberLinks({member}: {member: Member}) {
   )
     return null;
   return (
-    <div className="flex flex-wrap items-center gap-1.5">
+    <div className="flex items-center gap-1.5 shrink-0">
       {member.linkedin && (
         <a
           href={member.linkedin}
           target="_blank"
           rel="noreferrer"
           aria-label={`${member.name} profile`}
+          title="LinkedIn"
           className="size-7 rounded-full border hairline grid place-items-center text-muted hover:text-[var(--fg)] hover:bg-[var(--surface-2)]"
         >
           <Linkedin className="size-3" />
@@ -47,6 +48,7 @@ function MemberLinks({member}: {member: Member}) {
           target="_blank"
           rel="noreferrer"
           aria-label={`${member.name} on Google Scholar`}
+          title="Google Scholar"
           className="size-7 rounded-full border hairline grid place-items-center text-muted hover:text-[var(--fg)] hover:bg-[var(--surface-2)]"
         >
           <GraduationCap className="size-3.5" />
@@ -58,9 +60,10 @@ function MemberLinks({member}: {member: Member}) {
           target="_blank"
           rel="noreferrer"
           aria-label={`${member.name} ORCID`}
-          className="px-2 h-7 rounded-full border hairline grid place-items-center text-[10px] font-bold tracking-wider text-muted hover:text-[var(--fg)] hover:bg-[var(--surface-2)]"
+          title="ORCID"
+          className="size-7 rounded-full bg-[#A6CE39] grid place-items-center text-[10px] font-bold italic text-white hover:brightness-110"
         >
-          ORCID
+          iD
         </a>
       )}
       {member.scopus && (
@@ -69,9 +72,10 @@ function MemberLinks({member}: {member: Member}) {
           target="_blank"
           rel="noreferrer"
           aria-label={`${member.name} on Scopus`}
-          className="px-2 h-7 rounded-full border hairline grid place-items-center text-[10px] font-bold tracking-wider text-muted hover:text-[var(--fg)] hover:bg-[var(--surface-2)]"
+          title="Scopus"
+          className="size-7 rounded-full bg-[#E9711C] grid place-items-center text-[11px] font-bold text-white hover:brightness-110"
         >
-          SCOPUS
+          S
         </a>
       )}
     </div>
@@ -160,39 +164,29 @@ export default async function TeamsPage({
                       {t('teams.members')} · {members.length}
                     </div>
                     <div className="grid sm:grid-cols-2 gap-3">
-                      {others.map((m) => {
-                        const hasLinks =
-                          m.linkedin || m.scholar || m.orcid || m.scopus;
-                        return (
-                          <div
-                            key={m.name}
-                            className="card border rounded-xl p-4 hover:-translate-y-0.5 transition"
-                          >
-                            <div className="flex items-start gap-3">
-                              <Avatar
-                                name={m.name}
-                                size="md"
-                                isDirector={m.role?.includes('Director · C3S')}
-                              />
-                              <div className="min-w-0 flex-1">
-                                <div className="text-sm font-medium leading-snug break-words">
-                                  {m.name}
-                                </div>
-                                {m.role && (
-                                  <div className="text-[11px] text-muted leading-snug mt-0.5 break-words">
-                                    {m.role}
-                                  </div>
-                                )}
-                              </div>
+                      {others.map((m) => (
+                        <div
+                          key={m.name}
+                          className="card border rounded-xl p-4 flex items-center gap-3 hover:-translate-y-0.5 transition"
+                        >
+                          <Avatar
+                            name={m.name}
+                            size="md"
+                            isDirector={m.role?.includes('Director · C3S')}
+                          />
+                          <div className="min-w-0 flex-1">
+                            <div className="text-sm font-medium leading-snug break-words">
+                              {m.name}
                             </div>
-                            {hasLinks && (
-                              <div className="mt-3">
-                                <MemberLinks member={m} />
+                            {m.role && (
+                              <div className="text-[11px] text-muted leading-snug mt-0.5 break-words">
+                                {m.role}
                               </div>
                             )}
                           </div>
-                        );
-                      })}
+                          <MemberLinks member={m} />
+                        </div>
+                      ))}
                     </div>
                   </div>
                 </div>
