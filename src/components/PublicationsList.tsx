@@ -23,10 +23,12 @@ export function PublicationsList() {
     'all'
   );
 
-  const years = useMemo(
-    () => Array.from(new Set(PUBLICATIONS.map((p) => p.year))).sort((a, b) => b - a),
-    []
-  );
+  const years = useMemo(() => {
+    const currentYear = new Date().getFullYear();
+    const all = new Set<number>(PUBLICATIONS.map((p) => p.year));
+    all.add(currentYear);
+    return Array.from(all).sort((a, b) => b - a);
+  }, []);
 
   const filtered = useMemo(() => {
     return PUBLICATIONS.filter((p) => {

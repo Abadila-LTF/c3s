@@ -35,7 +35,8 @@ const PARTNERS: Partner[] = [
     id: 'mobitic',
     type: 'industrial',
     logoBg: 'light',
-    accent: 'from-[var(--color-teal-500)]/20 to-[var(--color-amber-400)]/15'
+    accent: 'from-[var(--color-teal-500)]/20 to-[var(--color-amber-400)]/15',
+    url: 'https://mobitic.org/'
   },
   {
     id: 'revatis',

@@ -31,7 +31,7 @@
     "eyebrow": "Research lab · UH2C / ESTC · Since 2019",
     "title1": "Research, innovation and",
     "title2": "smart systems",
-    "subtitle": "C3S — the Computer Science and Smart Systems Laboratory — federates 20 faculty researchers around Data Science, IoT, Cybersecurity, Cloud and AI, at the École Supérieure de Technologie de Casablanca.",
+    "subtitle": "C3S — the Computer Science and Smart Systems Laboratory — federates 22 faculty researchers around Data Science, IoT, Cybersecurity, Cloud and AI, at the École Supérieure de Technologie de Casablanca.",
     "ctaPrimary": "Our research areas",
     "ctaSecondary": "Join the lab",
     "stats": {
@@ -62,9 +62,9 @@
   "about": {
     "eyebrow": "The lab",
     "title": "Computer Science and Smart Systems",
-    "intro": "Founded in 2019 at the École Supérieure de Technologie de Casablanca, C3S brings together about 20 faculty researchers around the major themes of information science and technology.",
+    "intro": "Founded in 2019 at the École Supérieure de Technologie de Casablanca, C3S brings together 22 faculty researchers around the major themes of information science and technology.",
     "presentationTitle": "Overview",
-    "presentation": "C3S is a Computer Science research laboratory hosted at École Supérieure de Technologie de Casablanca (ESTC), Hassan II University of Casablanca. It federates 20 permanent faculty researchers with 20+ years of experience, across a diversity of disciplines: Data Engineering, Data Science, Big Data, Wireless Networks, IoT, Cloud Computing, Information Systems, Cyber Security, System Modelling & Simulation, Robotics, Business Intelligence and Advanced Data Analytics.",
+    "presentation": "C3S is a Computer Science research laboratory hosted at École Supérieure de Technologie de Casablanca (ESTC), Hassan II University of Casablanca. It federates 22 permanent faculty researchers with 20+ years of experience, across a diversity of disciplines: Data Engineering, Data Science, Big Data, Wireless Networks, IoT, Cloud Computing, Information Systems, Cyber Security, System Modelling & Simulation, Robotics, Business Intelligence and Advanced Data Analytics.",
     "presentation2": "C3S meets the accreditation requirements of Hassan II University of Casablanca: 4 structured teams, 45+ Scopus / Web of Science indexed publications over the last 4 years, and a collective h-index above 50. The lab welcomes researchers from complementary fields wishing to participate in multidisciplinary projects.",
     "visionTitle": "Vision & strategy",
     "visionSubtitle": "Three pillars structure the lab's action.",
@@ -106,7 +106,7 @@
   "teams": {
     "eyebrow": "Research teams",
     "title": "Four complementary teams",
-    "subtitle": "The lab is organised around four teams federated by complementary themes, gathering 20 faculty researchers.",
+    "subtitle": "The lab is organised around four teams federated by complementary themes, gathering 22 faculty researchers.",
     "teamLead": "Team lead",
     "members": "Members",
     "topics": "Research topics",
@@ -130,9 +130,9 @@
     },
     "d2sf": {
       "name": "D2SF",
-      "fullName": "Design, Smart Systems & Future technologies",
-      "tagline": "Design and smart systems",
-      "description": "Recently joining the lab, D2SF brings expertise in design, smart systems and future technologies, expanding C3S's thematic coverage."
+      "fullName": "Dynamic Systems and Smart Factory",
+      "tagline": "Dynamic systems & smart factory",
+      "description": "D2SF works on dynamic systems and the smart factory, bringing expertise in mechanical design, embedded systems, lean and additive manufacturing, and industrial automation, expanding C3S's thematic coverage towards Industry 4.0."
     }
   },
   "research": {
@@ -319,7 +319,7 @@
     },
     "mobitic": {
       "name": "Mobitic",
-      "description": "Industrial partner collaborating with C3S on applied research and technology transfer projects."
+      "description": "Moroccan association promoting research, training and innovation in information and communication technologies. Partner of C3S on applied research and technology transfer."
     },
     "revatis": {
       "name": "Revatis",

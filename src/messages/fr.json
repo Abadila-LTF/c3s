@@ -31,7 +31,7 @@
     "eyebrow": "Laboratoire de recherche · UH2C / ESTC · Depuis 2019",
     "title1": "Recherche, innovation et",
     "title2": "intelligence des systèmes",
-    "subtitle": "Le laboratoire C3S — Computer Science and Smart Systems — fédère 20 enseignants-chercheurs autour de la Data Science, de l'IoT, de la Cybersécurité, du Cloud et de l'IA, à l'École Supérieure de Technologie de Casablanca.",
+    "subtitle": "Le laboratoire C3S — Computer Science and Smart Systems — fédère 22 enseignants-chercheurs autour de la Data Science, de l'IoT, de la Cybersécurité, du Cloud et de l'IA, à l'École Supérieure de Technologie de Casablanca.",
     "ctaPrimary": "Nos axes de recherche",
     "ctaSecondary": "Rejoindre le laboratoire",
     "stats": {
@@ -64,7 +64,7 @@
     "title": "Computer Science and Smart Systems",
     "intro": "Créé en 2019 à l'École Supérieure de Technologie de Casablanca, le laboratoire C3S regroupe une vingtaine d'enseignants-chercheurs autour des grands thèmes des sciences et technologies de l'information.",
     "presentationTitle": "Présentation",
-    "presentation": "Le laboratoire C3S est un laboratoire de recherche en informatique domicilié à l'École Supérieure de Technologie de Casablanca (ESTC), Université Hassan II de Casablanca. Il fédère 20 enseignants-chercheurs permanents avec plus de 20 ans d'expérience, autour d'une diversité de disciplines : Data Engineering, Data Science, Big Data, Wireless Networks, IoT, Cloud Computing, Information Systems, Cyber Security, System Modelling & Simulation, Robotics, Business Intelligence et Analyses de Données Avancée.",
+    "presentation": "Le laboratoire C3S est un laboratoire de recherche en informatique domicilié à l'École Supérieure de Technologie de Casablanca (ESTC), Université Hassan II de Casablanca. Il fédère 22 enseignants-chercheurs permanents avec plus de 20 ans d'expérience, autour d'une diversité de disciplines : Data Engineering, Data Science, Big Data, Wireless Networks, IoT, Cloud Computing, Information Systems, Cyber Security, System Modelling & Simulation, Robotics, Business Intelligence et Analyses de Données Avancée.",
     "presentation2": "Le C3S satisfait aux conditions d'accréditation de l'Université Hassan II de Casablanca : structuré en 4 équipes, 45+ publications indexées Scopus / Web of Science sur les 4 dernières années, et un h-index dépassant 50. Il reste ouvert aux chercheurs d'autres domaines complémentaires désireux de participer à des projets de recherche multidisciplinaires.",
     "visionTitle": "Vision & stratégie",
     "visionSubtitle": "Trois piliers structurent l'action du laboratoire.",
@@ -106,7 +106,7 @@
   "teams": {
     "eyebrow": "Équipes de recherche",
     "title": "Quatre équipes complémentaires",
-    "subtitle": "Le laboratoire est organisé autour de quatre équipes fédérées par des thèmes complémentaires, regroupant 20 enseignants-chercheurs.",
+    "subtitle": "Le laboratoire est organisé autour de quatre équipes fédérées par des thèmes complémentaires, regroupant 22 enseignants-chercheurs.",
     "teamLead": "Responsable d'équipe",
     "members": "Membres",
     "topics": "Thèmes de recherche",
@@ -130,9 +130,9 @@
     },
     "d2sf": {
       "name": "D2SF",
-      "fullName": "Design, Smart Systems & Future technologies",
-      "tagline": "Conception et systèmes intelligents",
-      "description": "Équipe ayant rejoint récemment le laboratoire, D2SF apporte une expertise en conception, systèmes intelligents et technologies du futur, complétant ainsi la couverture thématique du C3S."
+      "fullName": "Dynamic Systems and Smart Factory",
+      "tagline": "Systèmes dynamiques & usine intelligente",
+      "description": "D2SF travaille sur les systèmes dynamiques et l'usine intelligente : conception mécanique, systèmes embarqués, lean et fabrication additive, automatisation industrielle, étendant la couverture thématique du C3S vers l'Industrie 4.0."
     }
   },
   "research": {
@@ -319,7 +319,7 @@
     },
     "mobitic": {
       "name": "Mobitic",
-      "description": "Partenaire industriel collaborant avec le C3S sur des projets de recherche appliquée et de transfert technologique."
+      "description": "Association marocaine qui promeut la recherche, la formation et l'innovation dans les technologies de l'information et de la communication. Partenaire du C3S sur la recherche appliquée et le transfert technologique."
     },
     "revatis": {
       "name": "Revatis",

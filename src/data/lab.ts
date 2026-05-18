@@ -19,7 +19,7 @@ export const DIRECTION = {
 
 export const MEMBERS: Member[] = [
   {
-    name: 'Pr. Hicham BELHADDAOUI',
+    name: 'Pr. Hicham BEL HADAOUI',
     role: 'Team lead',
     team: 'dsis',
     isLead: true,
@@ -33,6 +33,7 @@ export const MEMBERS: Member[] = [
   },
   {name: 'Pr. Mostafa JEBBAR', team: 'dsis', orcid: '0000-0001-6833-0549'},
   {name: 'Pr. Azzeddine DAHBI', team: 'dsis', orcid: '0000-0003-3443-8222'},
+  {name: 'Pr. Moad Hicham SAFHI', team: 'dsis'},
 
   {
     name: 'Pr. Elhoussaine ZIYATI',
@@ -80,7 +81,8 @@ export const MEMBERS: Member[] = [
     scholar: 'https://scholar.google.com/citations?user=06b6ToUAAAAJ'
   },
   {name: 'Pr. Ismail EL HADDIOUI', team: 'gedis', orcid: '0000-0002-9865-4410'},
-  {name: 'Pr. Souad HAFIDI', team: 'gedis', orcid: '0000-0002-5950-1892'},
+  {name: 'Pr. Souad HOUFAIDI', team: 'gedis', orcid: '0000-0002-5950-1892'},
+  {name: 'Pr. Idriss MOUMEN', team: 'gedis'},
 
   {
     name: 'Pr. Khalid ZARBANE',
@@ -90,7 +92,7 @@ export const MEMBERS: Member[] = [
     orcid: '0000-0002-6048-5279',
     linkedin: 'https://linkedin.com/in/khalid-zarbane-8a54a260'
   },
-  {name: 'Pr. Issa OUBALLOUCH', team: 'd2sf', orcid: '0000-0002-8800-5564'},
+  {name: 'Pr. Aissa OUBALLOUCH', team: 'd2sf', orcid: '0000-0002-8800-5564'},
   {name: 'Pr. Zitouni BEIDOURI', team: 'd2sf', orcid: '0000-0002-5347-7895'},
   {name: 'Pr. Mohamed EL OUMAMI', team: 'd2sf', orcid: '0000-0003-3166-6529'}
 ];
