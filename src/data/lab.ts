@@ -23,33 +23,86 @@ export const MEMBERS: Member[] = [
     role: 'Team lead',
     team: 'dsis',
     isLead: true,
-    orcid: '0000-0001-8676-5570'
+    orcid: '0000-0001-8676-5570',
+    scopus: 'https://www.scopus.com/authid/detail.uri?authorId=24765903400',
+    linkedin: 'https://linkedin.com/in/hicham-belhadaoui-72774057'
   },
-  {name: 'Pr. Nadia AFIFI', team: 'dsis', orcid: '0000-0001-9727-7054'},
+  {
+    name: 'Pr. Nadia AFIFI',
+    team: 'dsis',
+    orcid: '0000-0001-9727-7054',
+    scopus: '56463858200',
+    scholar: 'https://scholar.google.com/citations?user=Jg4po40AAAAJ',
+    linkedin: 'https://linkedin.com/in/nadia-afifi-a1640616'
+  },
   {
     name: 'Pr. Mohamed Reda FILALI HILALI',
     team: 'dsis',
-    orcid: '0000-0002-7134-6186'
+    orcid: '0000-0002-7134-6186',
+    scopus: 'https://www.scopus.com/authid/detail.uri?authorId=57209143923',
+    scholar: 'https://scholar.google.com/citations?user=2LM5kksAAAAJ'
   },
-  {name: 'Pr. Mostafa JEBBAR', team: 'dsis', orcid: '0000-0001-6833-0549'},
-  {name: 'Pr. Azzeddine DAHBI', team: 'dsis', orcid: '0000-0003-3443-8222'},
-  {name: 'Pr. Moad Hicham SAFHI', team: 'dsis'},
+  {
+    name: 'Pr. Mostafa JEBBAR',
+    team: 'dsis',
+    orcid: '0000-0001-6833-0549',
+    scopus: '55638237100',
+    linkedin: 'https://linkedin.com/in/mostafa-jebbar-16460b6b'
+  },
+  {
+    name: 'Pr. Azzeddine DAHBI',
+    team: 'dsis',
+    orcid: '0000-0003-3443-8222',
+    scopus: '57188745170'
+  },
+  {
+    name: 'Pr. Moad Hicham SAFHI',
+    team: 'dsis',
+    orcid: '0000-0001-7301-6060',
+    scopus: 'https://www.scopus.com/authid/detail.uri?authorId=57200046855',
+    scholar: 'https://scholar.google.com/citations?user=4HIERzQAAAAJ',
+    linkedin: 'https://linkedin.com/in/hichammoadsafhi'
+  },
 
   {
     name: 'Pr. Elhoussaine ZIYATI',
     role: 'Team lead',
     team: 'bdios',
     isLead: true,
-    orcid: '0000-0003-0195-8459'
+    orcid: '0000-0003-0195-8459',
+    scopus: '55496568900',
+    linkedin: 'https://linkedin.com/in/ziyati-houssaine-9851a124'
   },
-  {name: 'Pr. Khalid BOURAGBA', team: 'bdios', orcid: '0000-0003-2795-4667'},
-  {name: 'Pr. Soufiane LAKHLIFI', team: 'bdios', orcid: '0000-0002-9923-4493'},
+  {
+    name: 'Pr. Khalid BOURAGBA',
+    team: 'bdios',
+    orcid: '0000-0003-2795-4667',
+    scopus: '56611592200',
+    scholar: 'https://scholar.google.com/citations?user=cNccXAgAAAAJ'
+  },
+  {
+    name: 'Pr. Soufiane LAKHLIFI',
+    team: 'bdios',
+    orcid: '0000-0002-9923-4493',
+    scopus: '57211585703',
+    scholar: 'https://scholar.google.com/citations?user=pkBzbewAAAAJ',
+    linkedin: 'https://linkedin.com/in/soufiane-lakhlifi-a19340101'
+  },
   {
     name: 'Pr. M\u2019barek IAOUSSE',
     team: 'bdios',
-    orcid: '0000-0002-4949-5556'
+    orcid: '0000-0002-4949-5556',
+    scopus: '57215282931',
+    scholar: 'https://scholar.google.com/citations?user=l5TfSNoAAAAJ'
   },
-  {name: 'Pr. Mohammed BAZIRHA', team: 'bdios', orcid: '0000-0002-7099-152X'},
+  {
+    name: 'Pr. Mohammed BAZIRHA',
+    team: 'bdios',
+    orcid: '0000-0002-7099-152X',
+    scopus: 'https://www.scopus.com/authid/detail.uri?authorId=57216805492',
+    scholar: 'https://scholar.google.com/citations?user=NqmJi3sAAAAJ',
+    linkedin: 'https://linkedin.com/in/mohammed-bazirha'
+  },
 
   {
     name: 'Pr. Meriyem CHERGUI',
@@ -57,14 +110,16 @@ export const MEMBERS: Member[] = [
     team: 'gedis',
     isLead: true,
     orcid: '0000-0002-4372-0097',
-    linkedin: 'https://linkedin.com/in/meriyem-chergui-4a780418',
-    scholar: 'https://scholar.google.com/citations?user=aSsVakUAAAAJ'
+    scopus: '57212030033',
+    scholar: 'https://scholar.google.com/citations?user=aSsVakUAAAAJ',
+    linkedin: 'https://linkedin.com/in/meriyem-chergui-4a780418'
   },
   {
     name: 'Pr. Mohammed OUZZIF',
     role: 'Director · C3S',
     team: 'gedis',
     orcid: '0000-0003-1100-0228',
+    scopus: 'https://www.scopus.com/authid/detail.uri?authorId=24178281900',
     linkedin: 'https://sciprofiles.com/profile/3700430'
   },
   {
@@ -72,6 +127,8 @@ export const MEMBERS: Member[] = [
     role: 'Deputy Director',
     team: 'gedis',
     orcid: '0000-0001-8039-684X',
+    scopus: '14041412100',
+    scholar: 'https://scholar.google.com/citations?user=93wvRuAAAAAJ',
     linkedin: 'https://linkedin.com/in/mohamed-el-kamili-8317496b'
   },
   {
@@ -80,9 +137,28 @@ export const MEMBERS: Member[] = [
     orcid: '0009-0007-3516-256X',
     scholar: 'https://scholar.google.com/citations?user=06b6ToUAAAAJ'
   },
-  {name: 'Pr. Ismail EL HADDIOUI', team: 'gedis', orcid: '0000-0002-9865-4410'},
-  {name: 'Pr. Souad HOUFAIDI', team: 'gedis', orcid: '0000-0002-5950-1892'},
-  {name: 'Pr. Idriss MOUMEN', team: 'gedis'},
+  {
+    name: 'Pr. Ismail EL HADDIOUI',
+    team: 'gedis',
+    orcid: '0000-0002-9865-4410',
+    scopus: '57216827651',
+    scholar: 'https://scholar.google.com/citations?user=cosQnkwAAAAJ',
+    linkedin: 'https://linkedin.com/in/ismail-el-haddioui-74759162'
+  },
+  {
+    name: 'Pr. Souad HOUFAIDI',
+    team: 'gedis',
+    orcid: '0000-0002-5950-1892',
+    linkedin: 'https://linkedin.com/in/souad-houfaidi-212375194'
+  },
+  {
+    name: 'Pr. Idriss MOUMEN',
+    team: 'gedis',
+    orcid: '0000-0002-9981-6370',
+    scopus: 'https://www.scopus.com/authid/detail.uri?authorId=58479985500',
+    scholar: 'https://scholar.google.com/citations?user=qGAy7BUAAAAJ',
+    linkedin: 'https://linkedin.com/in/idriss-moumen-026751101'
+  },
 
   {
     name: 'Pr. Khalid ZARBANE',
@@ -90,11 +166,29 @@ export const MEMBERS: Member[] = [
     team: 'd2sf',
     isLead: true,
     orcid: '0000-0002-6048-5279',
+    scopus: '42162431200',
+    scholar: 'https://scholar.google.com/citations?user=aPOBw1kAAAAJ',
     linkedin: 'https://linkedin.com/in/khalid-zarbane-8a54a260'
   },
-  {name: 'Pr. Aissa OUBALLOUCH', team: 'd2sf', orcid: '0000-0002-8800-5564'},
-  {name: 'Pr. Zitouni BEIDOURI', team: 'd2sf', orcid: '0000-0002-5347-7895'},
-  {name: 'Pr. Mohamed EL OUMAMI', team: 'd2sf', orcid: '0000-0003-3166-6529'}
+  {
+    name: 'Pr. Aissa OUBALLOUCH',
+    team: 'd2sf',
+    orcid: '0000-0002-8800-5564',
+    linkedin: 'https://linkedin.com/in/aissa-ouballouch-39975b10b'
+  },
+  {
+    name: 'Pr. Zitouni BEIDOURI',
+    team: 'd2sf',
+    orcid: '0000-0002-5347-7895',
+    scholar: 'https://scholar.google.com/citations?user=7wQv3bgAAAAJ',
+    linkedin: 'https://linkedin.com/in/zitouni-beidouri-1573b6198'
+  },
+  {
+    name: 'Pr. Mohamed EL OUMAMI',
+    team: 'd2sf',
+    orcid: '0000-0003-3166-6529',
+    scholar: 'https://scholar.google.com/citations?user=1qdTUIwAAAAJ'
+  }
 ];
 
 export const TEAM_TOPICS: Record<TeamId, string[]> = {
