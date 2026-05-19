@@ -235,7 +235,39 @@
     "talk2Date": "23 mai 2024",
     "talk3": "Sensibilisation et accompagnement au montage de projets de recherche",
     "talk3Speaker": "M. Ezzarfi · Ministère de l'ESRI",
-    "talk3Date": "24 juin 2024"
+    "talk3Date": "24 juin 2024",
+    "recentTitle": "Événements récents",
+    "recentSubtitle": "Une chronologie des conférences, ateliers et conférences invitées organisés ou co-organisés par le C3S au cours des deux dernières années.",
+    "recent": {
+      "wincom24": {
+        "date": "Juillet 2024",
+        "title": "WINCOM'24 — Conférence internationale sur les réseaux sans fil et les communications mobiles"
+      },
+      "talkResearchProjects": {
+        "date": "Juin 2024",
+        "title": "Conférence invitée — Sensibilisation et accompagnement au montage de projets de recherche"
+      },
+      "talkLLMs": {
+        "date": "Mai 2024",
+        "title": "Conférence invitée — GPT et Large Language Models : principes et enjeux"
+      },
+      "talkDigitalCurrency": {
+        "date": "Avril 2024",
+        "title": "Conférence invitée — Les monnaies numériques des banques centrales : transformation sociétale ou mythe socio-technologique"
+      },
+      "leytonHackathon": {
+        "date": "Mars 2024",
+        "title": "Hackathon Leyton × C3S"
+      },
+      "nextgenData": {
+        "date": "Février 2024",
+        "title": "1er Workshop Next-Gen Data Engineering"
+      },
+      "wincom23": {
+        "date": "Octobre 2023",
+        "title": "WINCOM'23 — Conférence internationale sur les réseaux sans fil et les communications mobiles"
+      }
+    }
   },
   "phd": {
     "eyebrow": "Programme doctoral",

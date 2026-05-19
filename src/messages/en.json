@@ -235,7 +235,39 @@
     "talk2Date": "May 23, 2024",
     "talk3": "Awareness and support for research project design",
     "talk3Speaker": "Mr. Ezzarfi · Ministry of ESRI",
-    "talk3Date": "June 24, 2024"
+    "talk3Date": "June 24, 2024",
+    "recentTitle": "Recent events",
+    "recentSubtitle": "A chronological timeline of conferences, workshops and invited talks hosted or co-organized by C3S over the last two years.",
+    "recent": {
+      "wincom24": {
+        "date": "July 2024",
+        "title": "WINCOM'24 — International Conference on Wireless Networks and Mobile Communications"
+      },
+      "talkResearchProjects": {
+        "date": "June 2024",
+        "title": "Invited talk — Awareness and support for research project design"
+      },
+      "talkLLMs": {
+        "date": "May 2024",
+        "title": "Invited talk — GPT and Large Language Models: principles and challenges"
+      },
+      "talkDigitalCurrency": {
+        "date": "April 2024",
+        "title": "Invited talk — Central bank digital currencies: societal transformation or socio-technological myth"
+      },
+      "leytonHackathon": {
+        "date": "March 2024",
+        "title": "Leyton × C3S Hackathon"
+      },
+      "nextgenData": {
+        "date": "February 2024",
+        "title": "1st Next-Gen Data Engineering Workshop"
+      },
+      "wincom23": {
+        "date": "October 2023",
+        "title": "WINCOM'23 — International Conference on Wireless Networks and Mobile Communications"
+      }
+    }
   },
   "phd": {
     "eyebrow": "Doctoral program",

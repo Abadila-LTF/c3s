@@ -3,7 +3,7 @@ import {getTranslations, setRequestLocale} from 'next-intl/server';
 import {PageHero} from '@/components/PageHero';
 import {Card} from '@/components/Section';
 import {Reveal} from '@/components/Reveal';
-import {Calendar, MapPin, Mic2, ExternalLink} from 'lucide-react';
+import {Calendar, MapPin, Mic2, ExternalLink, History} from 'lucide-react';
 
 export default async function EventsPage({
   params
@@ -26,6 +26,16 @@ export default async function EventsPage({
     {key: 'talk1', date: 'talk1Date', speaker: 'talk1Speaker'},
     {key: 'talk2', date: 'talk2Date', speaker: 'talk2Speaker'},
     {key: 'talk3', date: 'talk3Date', speaker: 'talk3Speaker'}
+  ];
+
+  const recentEvents = [
+    'wincom24',
+    'talkResearchProjects',
+    'talkLLMs',
+    'talkDigitalCurrency',
+    'leytonHackathon',
+    'nextgenData',
+    'wincom23'
   ];
 
   return (
@@ -84,6 +94,43 @@ export default async function EventsPage({
             </Reveal>
           ))}
         </div>
+      </section>
+
+      <section className="container-page py-16 sm:py-20 border-t hairline">
+        <div className="flex items-end justify-between flex-wrap gap-3">
+          <div>
+            <h2 className="text-2xl sm:text-3xl font-bold tracking-tight">
+              {t('events.recentTitle')}
+            </h2>
+            <p className="mt-2 text-sm text-muted max-w-2xl">
+              {t('events.recentSubtitle')}
+            </p>
+          </div>
+          <span className="chip">
+            <History className="size-3" />
+            2023 — 2024
+          </span>
+        </div>
+        <ol className="mt-8 relative border-l hairline pl-6 sm:pl-8 space-y-5">
+          {recentEvents.map((key, i) => (
+            <Reveal key={key} delay={i * 0.03}>
+              <li className="relative">
+                <span className="absolute -left-[33px] sm:-left-[41px] top-2 size-3 rounded-full bg-[var(--color-teal-500)] ring-4 ring-white dark:ring-[var(--color-navy-900)]" />
+                <Card className="p-5">
+                  <div className="flex items-center gap-2 text-xs text-muted">
+                    <Calendar className="size-3.5" />
+                    <span className="chip">
+                      {t(`events.recent.${key}.date`)}
+                    </span>
+                  </div>
+                  <h3 className="mt-3 text-base sm:text-lg font-semibold leading-snug">
+                    {t(`events.recent.${key}.title`)}
+                  </h3>
+                </Card>
+              </li>
+            </Reveal>
+          ))}
+        </ol>
       </section>
 
       <section className="container-page py-16 sm:py-20 border-t hairline">
