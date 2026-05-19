@@ -68,8 +68,8 @@ export function Footer() {
             <div className="flex items-start gap-2 text-muted">
               <MapPin className="size-4 mt-0.5 shrink-0" />
               <span>
-                École Supérieure de Technologie de Casablanca<br />
-                Université Hassan II · Casablanca, Maroc
+                {t('footer.address1')}<br />
+                {t('footer.address2')}
               </span>
             </div>
             <a

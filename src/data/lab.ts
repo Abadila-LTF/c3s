@@ -135,6 +135,7 @@ export const MEMBERS: Member[] = [
     name: 'Pr. Imane DAOUDI',
     team: 'gedis',
     orcid: '0009-0007-3516-256X',
+    scopus: '25421022200',
     scholar: 'https://scholar.google.com/citations?user=06b6ToUAAAAJ'
   },
   {
@@ -149,6 +150,7 @@ export const MEMBERS: Member[] = [
     name: 'Pr. Souad HOUFAIDI',
     team: 'gedis',
     orcid: '0000-0002-5950-1892',
+    scopus: '57694765800',
     linkedin: 'https://linkedin.com/in/souad-houfaidi-212375194'
   },
   {
@@ -174,12 +176,14 @@ export const MEMBERS: Member[] = [
     name: 'Pr. Aissa OUBALLOUCH',
     team: 'd2sf',
     orcid: '0000-0002-8800-5564',
+    scopus: '57208524903',
     linkedin: 'https://linkedin.com/in/aissa-ouballouch-39975b10b'
   },
   {
     name: 'Pr. Zitouni BEIDOURI',
     team: 'd2sf',
     orcid: '0000-0002-5347-7895',
+    scopus: '10039741100',
     scholar: 'https://scholar.google.com/citations?user=7wQv3bgAAAAJ',
     linkedin: 'https://linkedin.com/in/zitouni-beidouri-1573b6198'
   },
@@ -187,6 +191,7 @@ export const MEMBERS: Member[] = [
     name: 'Pr. Mohamed EL OUMAMI',
     team: 'd2sf',
     orcid: '0000-0003-3166-6529',
+    scopus: '57202745354',
     scholar: 'https://scholar.google.com/citations?user=1qdTUIwAAAAJ'
   }
 ];

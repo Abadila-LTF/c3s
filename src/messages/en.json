@@ -17,6 +17,8 @@
     "explore": "Explore",
     "engage": "Engage",
     "contact": "Get in touch",
+    "address1": "Higher School of Technology of Casablanca",
+    "address2": "Hassan II University · Casablanca, Morocco",
     "legal": "All rights reserved"
   },
   "common": {
@@ -31,7 +33,7 @@
     "eyebrow": "Research lab · UH2C / ESTC · Since 2019",
     "title1": "Research, innovation and",
     "title2": "smart systems",
-    "subtitle": "C3S — the Computer Science and Smart Systems Laboratory — federates 22 faculty researchers around Data Science, IoT, Cybersecurity, Cloud and AI, at the École Supérieure de Technologie de Casablanca.",
+    "subtitle": "C3S — the Computer Science and Smart Systems Laboratory — federates 22 faculty researchers around Data Science, IoT, Cybersecurity, Cloud and AI, at the Higher School of Technology of Casablanca.",
     "ctaPrimary": "Our research areas",
     "ctaSecondary": "Join the lab",
     "stats": {
@@ -62,9 +64,9 @@
   "about": {
     "eyebrow": "The lab",
     "title": "Computer Science and Smart Systems",
-    "intro": "Founded in 2019 at the École Supérieure de Technologie de Casablanca, C3S brings together 22 faculty researchers around the major themes of information science and technology.",
+    "intro": "Founded in 2019 at the Higher School of Technology of Casablanca, C3S brings together 22 faculty researchers around the major themes of information science and technology.",
     "presentationTitle": "Overview",
-    "presentation": "C3S is a Computer Science research laboratory hosted at École Supérieure de Technologie de Casablanca (ESTC), Hassan II University of Casablanca. It federates 22 permanent faculty researchers with 20+ years of experience, across a diversity of disciplines: Data Engineering, Data Science, Big Data, Wireless Networks, IoT, Cloud Computing, Information Systems, Cyber Security, System Modelling & Simulation, Robotics, Business Intelligence and Advanced Data Analytics.",
+    "presentation": "C3S is a Computer Science research laboratory hosted at the Higher School of Technology of Casablanca (ESTC), Hassan II University of Casablanca. It federates 22 permanent faculty researchers with 20+ years of experience, across a diversity of disciplines: Data Engineering, Data Science, Big Data, Wireless Networks, IoT, Cloud Computing, Information Systems, Cyber Security, System Modelling & Simulation, Robotics, Business Intelligence and Advanced Data Analytics.",
     "presentation2": "C3S meets the accreditation requirements of Hassan II University of Casablanca: 4 structured teams, 45+ Scopus / Web of Science indexed publications over the last 4 years, and a collective h-index above 50. The lab welcomes researchers from complementary fields wishing to participate in multidisciplinary projects.",
     "visionTitle": "Vision & strategy",
     "visionSubtitle": "Three pillars structure the lab's action.",
@@ -331,7 +333,7 @@
     },
     "estc": {
       "name": "ESTC · Hassan II University",
-      "description": "Host institution. The École Supérieure de Technologie de Casablanca hosts the lab and supports its training and research activities."
+      "description": "Host institution. The Higher School of Technology of Casablanca hosts the lab and supports its training and research activities."
     }
   },
   "news": {
@@ -366,7 +368,7 @@
     "title": "Let's talk about your project",
     "subtitle": "Whether you are a PhD student, researcher, industrial or institutional partner, C3S is open to new collaborations.",
     "addressTitle": "Address",
-    "address": "École Supérieure de Technologie de Casablanca (ESTC)\nHassan II University of Casablanca\nKm 7, Route d'El Jadida\nCasablanca, Morocco",
+    "address": "Higher School of Technology of Casablanca (ESTC)\nHassan II University of Casablanca\nKm 7, El Jadida Road\nCasablanca, Morocco",
     "emailTitle": "Email",
     "websiteTitle": "Official website",
     "mapTitle": "Location",
