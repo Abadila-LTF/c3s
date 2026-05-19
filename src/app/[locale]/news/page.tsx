@@ -6,6 +6,8 @@ import {Reveal} from '@/components/Reveal';
 import {Calendar, Award, FileCheck2, Trophy, Users} from 'lucide-react';
 
 const NEWS = [
+  {key: 'mind2025', img: null, Icon: Award},
+  {key: 'ngde2025', img: '/images/events/workshop-data-eng.jpg', Icon: Award},
   {key: 'ag', img: '/images/events/journees-recherche.jpg', Icon: Users},
   {key: 'accreditation', img: null, Icon: FileCheck2},
   {key: 'leyton', img: '/images/events/leyton-hackathon.jpg', Icon: Trophy},

@@ -2,7 +2,7 @@ import {getTranslations, setRequestLocale} from 'next-intl/server';
 import {PageHero} from '@/components/PageHero';
 import {Card} from '@/components/Section';
 import {Reveal} from '@/components/Reveal';
-import {GraduationCap, Wrench, Globe, Crown, Users2, Building2} from 'lucide-react';
+import {GraduationCap, Wrench, Globe, Crown, Users2} from 'lucide-react';
 import {DIRECTION} from '@/data/lab';
 
 export default async function AboutPage({
@@ -132,7 +132,7 @@ export default async function AboutPage({
           </h2>
           <p className="mt-3 text-muted">{t('about.directionSubtitle')}</p>
 
-          <div className="mt-10 grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
+          <div className="mt-10 grid sm:grid-cols-2 gap-5 max-w-3xl">
             <Card>
               <div className="flex items-center gap-3">
                 <div className="size-14 rounded-xl bg-gradient-to-br from-[var(--color-amber-400)]/30 to-[var(--color-coral-500)]/20 grid place-items-center">
@@ -140,13 +140,13 @@ export default async function AboutPage({
                 </div>
                 <div>
                   <div className="text-xs uppercase tracking-wider text-[var(--color-coral-500)] font-semibold">
-                    Director
+                    {t('about.directorRole')}
                   </div>
                   <div className="font-semibold">{DIRECTION.director}</div>
                 </div>
               </div>
               <p className="mt-4 text-sm text-muted">
-                Team: GEDIS · Governance &amp; Engineering of Data and Intelligent Systems
+                {t('about.directorNote')}
               </p>
             </Card>
 
@@ -157,32 +157,55 @@ export default async function AboutPage({
                 </div>
                 <div>
                   <div className="text-xs uppercase tracking-wider text-[var(--color-teal-600)] font-semibold">
-                    Deputy Director
+                    {t('about.deputyRole')}
                   </div>
                   <div className="font-semibold">{DIRECTION.deputy}</div>
                 </div>
               </div>
               <p className="mt-4 text-sm text-muted">
-                Co-leadership of scientific and administrative affairs.
+                {t('about.deputyNote')}
               </p>
             </Card>
+          </div>
+        </div>
+      </section>
 
-            <Card>
-              <div className="flex items-center gap-3">
-                <div className="size-14 rounded-xl bg-gradient-to-br from-[var(--color-coral-500)]/20 to-[var(--color-amber-400)]/20 grid place-items-center">
-                  <Building2 className="size-6 text-[var(--color-coral-600)]" />
-                </div>
-                <div>
-                  <div className="text-xs uppercase tracking-wider text-[var(--color-coral-500)] font-semibold">
-                    Co-leadership
+      {/* C3S in numbers */}
+      <section className="border-t hairline bg-[var(--surface)]">
+        <div className="container-page py-20">
+          <div className="text-xs font-semibold uppercase tracking-[0.2em] text-[var(--color-teal-500)]">
+            {t('about.eyebrow')}
+          </div>
+          <h2 className="mt-3 text-3xl sm:text-4xl font-bold tracking-tight">
+            {t('about.numbersTitle')}
+          </h2>
+          <p className="mt-3 max-w-2xl text-muted">
+            {t('about.numbersSubtitle')}
+          </p>
+          <div className="mt-10 grid grid-cols-2 md:grid-cols-4 gap-4">
+            {(
+              [
+                'pubs',
+                'intlConfs',
+                'phds',
+                'chapters',
+                'patents',
+                'teams',
+                'hindex',
+                'phdsTotal'
+              ] as const
+            ).map((k, i) => (
+              <Reveal key={k} delay={i * 0.03}>
+                <div className="h-full rounded-2xl border hairline p-5 surface text-center">
+                  <div className="text-2xl sm:text-3xl font-bold gradient-text">
+                    {t(`about.numbers.${k}.value`)}
                   </div>
-                  <div className="font-semibold">{DIRECTION.deputy2}</div>
+                  <div className="mt-2 text-xs uppercase tracking-wider text-muted leading-snug">
+                    {t(`about.numbers.${k}.label`)}
+                  </div>
                 </div>
-              </div>
-              <p className="mt-4 text-sm text-muted">
-                Co-leadership · external relations & strategy.
-              </p>
-            </Card>
+              </Reveal>
+            ))}
           </div>
         </div>
       </section>

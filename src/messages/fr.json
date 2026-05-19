@@ -79,6 +79,22 @@
     "strategy3": "Partenariats avec laboratoires et institutions académiques. Projets conjoints et soumissions de financement à l'échelle nationale et internationale. Participation à des conférences pour renforcer le réseau.",
     "directionTitle": "Direction du laboratoire",
     "directionSubtitle": "Le laboratoire est dirigé par un conseil élu en assemblée générale.",
+    "directorRole": "Directeur",
+    "directorNote": "Équipe : GEDIS — Governance & Engineering of Data and Intelligent Systems.",
+    "deputyRole": "Directeur Adjoint",
+    "deputyNote": "Co-pilotage des affaires scientifiques et administratives.",
+    "numbersTitle": "C3S en chiffres",
+    "numbersSubtitle": "Production scientifique et formation, d'après le rapport d'évaluation d'accréditation 2024.",
+    "numbers": {
+      "pubs": {"value": "30+", "label": "Publications indexées / an"},
+      "intlConfs": {"value": "20+", "label": "Communications internationales / an"},
+      "phds": {"value": "~6", "label": "Thèses soutenues / an"},
+      "chapters": {"value": "~5", "label": "Chapitres d'ouvrages / an"},
+      "patents": {"value": "1", "label": "Brevet"},
+      "teams": {"value": "4", "label": "Équipes de recherche"},
+      "hindex": {"value": "h > 50", "label": "h-index collectif"},
+      "phdsTotal": {"value": "20+", "label": "Thèses soutenues (3 dernières années)"}
+    },
     "governanceTitle": "Gouvernance",
     "governance1Title": "Assemblée Générale",
     "governance1": "Niveau de décision prééminent. Composée de l'ensemble des membres permanents, elle valide le règlement intérieur, le bilan annuel et élit le Directeur et son adjoint.",
@@ -213,14 +229,14 @@
       "description": "Conférence internationale sur les systèmes collaboratifs, le Big Data, l'IoT et la sécurité."
     },
     "wkde": {
-      "title": "Next-Gen Data Engineering Workshop",
-      "subtitle": "DevOps, DataOps & ingénierie de données",
-      "description": "Atelier annuel sur les pratiques modernes d'ingénierie de données."
+      "title": "NGDE 2025",
+      "subtitle": "2ème Workshop Next-Gen Data Engineering · ESTC, Casablanca",
+      "description": "Deuxième édition du workshop Next-Gen Data Engineering, organisé par C3S à l'ESTC. Deux journées dédiées aux pratiques modernes d'ingénierie de données — DataOps, DevOps et platform engineering — avec chercheurs et partenaires industriels."
     },
     "mind": {
-      "title": "MIND",
-      "subtitle": "Multidisciplinary International Conference",
-      "description": "Conférence internationale multidisciplinaire portée par le laboratoire."
+      "title": "MIND 2025",
+      "subtitle": "Models, Intelligent Networks & Distributed Systems · 1ère édition",
+      "description": "Première édition du workshop international MIND, porté par C3S. Forum pluridisciplinaire sur les modèles intelligents, réseaux et systèmes distribués réunissant chercheurs marocains et internationaux."
     },
     "journees": {
       "title": "Journées Recherche C3S",
@@ -298,27 +314,27 @@
       "vrdu": {
         "title": "Visually-rich Document Understanding",
         "advisor": "Doctorant : Abdellatif Sissaoui · Partenaire : Leyton",
-        "summary": "Architecture en trois modules (Feature extractor, Graph constructor, GNN model) testée sur datasets de référence. Draft d'article prêt pour soumission à un journal Q1 spécialisé NLP."
+        "summary": "Dans le prolongement de la revue systématique présentée à WINCOM'23, une architecture en trois modules (Feature extractor, Graph constructor, GNN model) a été proposée et validée sur datasets de référence puis adaptée au dataset Leyton. Draft d'article prêt pour soumission à un journal Q1 spécialisé NLP."
       },
       "longdoc": {
         "title": "Efficient Long Document Classification",
         "advisor": "Doctorant : Yasser Elouargui · Partenaire : Leyton",
-        "summary": "Modèle GNN orienté phrase avec connexions sémantiques entre nœuds et graphe d'attention à trois niveaux. Implémenté et évalué sur datasets de référence."
+        "summary": "Modèle GNN orienté phrase avec connexions sémantiques entre nœuds et graphe d'attention à trois niveaux, implémenté et évalué sur datasets de référence avec des résultats favorables. Draft d'article en cours de rédaction pour un journal Q1 en NLP."
       },
       "agritech": {
         "title": "Plateforme agricole intelligente — Daki Farm",
         "advisor": "Partenaire : NRCI (projet Daki Farm)",
-        "summary": "Écosystème AgriTech : application e-learning agricole et plateforme de gestion intelligente de l'irrigation. Modélisation des besoins en eau, reconnaissance d'image pour le diagnostic des maladies des plantes."
+        "summary": "Écosystème AgriTech combinant une application e-learning agricole et une plateforme intelligente d'irrigation. Sujet du doctorant : modèles d'irrigation basés sur les données météorologiques et l'imagerie satellite, et service de reconnaissance photographique des maladies des plantes pour identifier la pathologie et le traitement."
       },
       "energy": {
         "title": "NR Counter — Plateforme de gestion énergétique",
         "advisor": "Partenaire : NRCI · Réseaux intelligents",
-        "summary": "Compteur intelligent connecté offrant des services digitalisés. Modèles d'IA pour audits et diagnostics énergétiques automatisés."
+        "summary": "Le NR Counter est un système de comptage intelligent connecté (compteurs, variateurs, onduleurs) relié au cloud par une passerelle de communication, avec une interface de monitoring opérationnelle. Sujet du doctorant : concevoir les modèles d'IA pour audits et diagnostics énergétiques automatisés et services énergétiques digitalisés."
       },
       "nlp": {
         "title": "NLP pour la génération automatique de documentation projet",
-        "advisor": "Partenaire : Ingénierie 4.0",
-        "summary": "Modèle d'IA générant automatiquement études préliminaires, cahiers des prescriptions spéciales, pièces graphiques et administratives en génie électrique et photovoltaïque."
+        "advisor": "Partenaire : NRCI · Ingénierie 4.0",
+        "summary": "Modèle d'IA générant automatiquement la documentation projet — études préliminaires, cahiers des prescriptions spéciales, pièces graphiques et administratives — pour des projets de génie électrique et photovoltaïque."
       },
       "llm": {
         "title": "Multi-Agent LLMs & RAG Systems",
@@ -373,6 +389,16 @@
     "title": "Dernières nouvelles",
     "subtitle": "Réunions, partenariats, conférences invitées et productions scientifiques récentes.",
     "items": {
+      "mind2025": {
+        "date": "2025",
+        "title": "MIND 2025 — 1er workshop Models, Intelligent Networks & Distributed Systems",
+        "summary": "C3S a lancé la première édition de MIND, un workshop international pluridisciplinaire sur les modèles intelligents, les réseaux et les systèmes distribués."
+      },
+      "ngde2025": {
+        "date": "2025",
+        "title": "NGDE 2025 — 2ème workshop Next-Gen Data Engineering",
+        "summary": "Après le succès de la première édition, C3S a organisé la deuxième édition du workshop NGDE à l'ESTC, réunissant chercheurs et partenaires industriels autour du DataOps et du platform engineering."
+      },
       "ag": {
         "date": "17 octobre 2024",
         "title": "Reconstitution du laboratoire en assemblée générale",

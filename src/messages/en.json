@@ -79,6 +79,22 @@
     "strategy3": "Partnerships with academic labs and institutions. Joint projects and funding submissions at national and international levels. Active participation in conferences to strengthen the network.",
     "directionTitle": "Lab leadership",
     "directionSubtitle": "The lab is led by a council elected at the General Assembly.",
+    "directorRole": "Director",
+    "directorNote": "Team: GEDIS — Governance & Engineering of Data and Intelligent Systems.",
+    "deputyRole": "Deputy Director",
+    "deputyNote": "Co-leadership of scientific and administrative affairs.",
+    "numbersTitle": "C3S in numbers",
+    "numbersSubtitle": "Scientific output and training activity, per accreditation evaluation 2024.",
+    "numbers": {
+      "pubs": {"value": "30+", "label": "Indexed publications / year"},
+      "intlConfs": {"value": "20+", "label": "International conference papers / year"},
+      "phds": {"value": "~6", "label": "PhDs defended / year"},
+      "chapters": {"value": "~5", "label": "Book chapters / year"},
+      "patents": {"value": "1", "label": "Patent"},
+      "teams": {"value": "4", "label": "Research teams"},
+      "hindex": {"value": "h > 50", "label": "Collective h-index"},
+      "phdsTotal": {"value": "20+", "label": "PhDs defended (last 3 years)"}
+    },
     "governanceTitle": "Governance",
     "governance1Title": "General Assembly",
     "governance1": "Highest decision-making body. Composed of all permanent members, it validates the internal regulations, the annual report and elects the Director and Deputy Director.",
@@ -213,14 +229,14 @@
       "description": "International conference on collaborative systems, Big Data, IoT and security."
     },
     "wkde": {
-      "title": "Next-Gen Data Engineering Workshop",
-      "subtitle": "DevOps, DataOps & data engineering",
-      "description": "Annual workshop on modern data engineering practices."
+      "title": "NGDE 2025",
+      "subtitle": "2nd Next-Gen Data Engineering Workshop · ESTC, Casablanca",
+      "description": "Second edition of the Next-Gen Data Engineering workshop, organized by C3S at ESTC. Two days dedicated to modern data engineering practices — DataOps, DevOps and platform engineering — with researchers and industrial partners."
     },
     "mind": {
-      "title": "MIND",
-      "subtitle": "Multidisciplinary International Conference",
-      "description": "Multidisciplinary international conference led by the lab."
+      "title": "MIND 2025",
+      "subtitle": "Models, Intelligent Networks & Distributed Systems · 1st edition",
+      "description": "First edition of the MIND international workshop, organized by C3S. A multidisciplinary forum on intelligent models, networks and distributed systems bringing together researchers from Morocco and abroad."
     },
     "journees": {
       "title": "C3S Research Days",
@@ -298,27 +314,27 @@
       "vrdu": {
         "title": "Visually-rich Document Understanding",
         "advisor": "PhD: Abdellatif Sissaoui · Partner: Leyton",
-        "summary": "Three-module architecture (Feature extractor, Graph constructor, GNN model) tested on benchmark datasets. Draft article ready for submission to a Q1 NLP-focused journal."
+        "summary": "Building on the systematic review presented at WINCOM'23, a three-module architecture (Feature extractor, Graph constructor, GNN model) was proposed and validated on reference datasets and adapted to the Leyton dataset. Draft article ready for submission to a Q1 NLP-focused journal."
       },
       "longdoc": {
         "title": "Efficient Long Document Classification",
         "advisor": "PhD: Yasser Elouargui · Partner: Leyton",
-        "summary": "Sentence-oriented GNN model with semantic node connections and a three-level attention graph. Implemented and evaluated on benchmark datasets."
+        "summary": "Sentence-oriented GNN model with semantic node connections and a three-level attention graph, implemented and evaluated on benchmark datasets with favorable results. Draft article currently being prepared for a Q1 NLP journal."
       },
       "agritech": {
         "title": "Smart Agricultural Platform — Daki Farm",
         "advisor": "Partner: NRCI (Daki Farm project)",
-        "summary": "AgriTech ecosystem: e-learning agricultural app and smart irrigation management platform. Water needs modelling and image-based plant disease diagnosis."
+        "summary": "AgriTech ecosystem combining an agricultural e-learning app and an intelligent irrigation platform. PhD focus: irrigation models driven by weather data and satellite imagery, plus a photo-based plant-disease recognition service identifying pathologies and treatments."
       },
       "energy": {
         "title": "NR Counter — Smart energy management platform",
         "advisor": "Partner: NRCI · Smart grids",
-        "summary": "Smart connected meter offering digitalized services. AI models for automated energy audits and diagnostics."
+        "summary": "NR Counter is a connected smart-metering system (meters, variators, inverters) linked to the cloud via a communication gateway, with an operational monitoring interface. PhD scope: design AI models for automated energy audits, diagnostics and digitalized energy services."
       },
       "nlp": {
         "title": "NLP for automatic project documentation generation",
-        "advisor": "Partner: Engineering 4.0",
-        "summary": "AI model automatically generating preliminary studies, technical specs, graphics and admin documents in electrical and photovoltaic engineering."
+        "advisor": "Partner: NRCI · Engineering 4.0",
+        "summary": "AI model automatically producing project documentation — from preliminary studies and technical specifications to graphic and administrative deliverables — for electrical and photovoltaic engineering projects."
       },
       "llm": {
         "title": "Multi-Agent LLMs & RAG Systems",
@@ -373,6 +389,16 @@
     "title": "Latest updates",
     "subtitle": "Meetings, partnerships, invited talks and recent scientific output.",
     "items": {
+      "mind2025": {
+        "date": "2025",
+        "title": "MIND 2025 — 1st Models, Intelligent Networks & Distributed Systems workshop",
+        "summary": "C3S launched the first edition of MIND, a multidisciplinary international workshop on intelligent models, networks and distributed systems."
+      },
+      "ngde2025": {
+        "date": "2025",
+        "title": "NGDE 2025 — 2nd Next-Gen Data Engineering workshop",
+        "summary": "Following the success of the first edition, C3S organized the second NGDE workshop at ESTC, bringing together researchers and industrial partners around DataOps and platform engineering."
+      },
       "ag": {
         "date": "October 17, 2024",
         "title": "Lab restructured at General Assembly",
