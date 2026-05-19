@@ -200,6 +200,20 @@
     "eyebrow": "Production scientifique",
     "title": "Publications",
     "subtitle": "Plus de 250 publications cumulées dans des conférences et journaux indexés sur les cinq dernières années.",
+    "stats": {
+      "total": "Publications",
+      "journals": "Journaux",
+      "conferences": "Conférences",
+      "yearSpan": "Période couverte",
+      "venues": "Lieux distincts",
+      "peak": "Année la plus active"
+    },
+    "charts": {
+      "byYearTitle": "Publications par année",
+      "byYearHint": "Cliquez une année pour filtrer",
+      "byTypeTitle": "Par type",
+      "byTeamTitle": "Par équipe"
+    },
     "filters": {
       "all": "Toutes",
       "year": "Année",
@@ -209,6 +223,20 @@
       "conference": "Conférence",
       "communication": "Communication",
       "search": "Rechercher un titre, un auteur..."
+    },
+    "list": {
+      "sort": "Trier",
+      "sortNewest": "Plus récents",
+      "sortOldest": "Plus anciens",
+      "sortTitle": "Titre A → Z",
+      "groupYear": "Année",
+      "loadMore": "Afficher plus",
+      "noResults": "Aucune publication ne correspond à vos filtres.",
+      "clearAll": "Tout effacer",
+      "activeFilters": "Filtres actifs",
+      "results": "résultats",
+      "result": "résultat",
+      "of": "sur"
     }
   },
   "events": {

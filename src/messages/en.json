@@ -200,6 +200,20 @@
     "eyebrow": "Scientific output",
     "title": "Publications",
     "subtitle": "More than 250 cumulative publications in indexed conferences and journals over the last five years.",
+    "stats": {
+      "total": "Publications",
+      "journals": "Journals",
+      "conferences": "Conferences",
+      "yearSpan": "Year span",
+      "venues": "Distinct venues",
+      "peak": "Most active year"
+    },
+    "charts": {
+      "byYearTitle": "Publications per year",
+      "byYearHint": "Click a year to filter",
+      "byTypeTitle": "By type",
+      "byTeamTitle": "By team"
+    },
     "filters": {
       "all": "All",
       "year": "Year",
@@ -209,6 +223,20 @@
       "conference": "Conference",
       "communication": "Communication",
       "search": "Search title, author..."
+    },
+    "list": {
+      "sort": "Sort",
+      "sortNewest": "Newest first",
+      "sortOldest": "Oldest first",
+      "sortTitle": "Title A → Z",
+      "groupYear": "Year",
+      "loadMore": "Show more",
+      "noResults": "No publications match your filters.",
+      "clearAll": "Clear all",
+      "activeFilters": "Active filters",
+      "results": "results",
+      "result": "result",
+      "of": "of"
     }
   },
   "events": {
